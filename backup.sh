@@ -1,6 +1,6 @@
 #!/bin/bash
 
--SOURCE_DIR="/var/www"
+SOURCE_DIR="/var/www"
 BACKUP_DIR="/var/backup"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
 BACKUP_FILE="$BACKUP_DIR/www_backup_$TIMESTAMP.tar.gz"
